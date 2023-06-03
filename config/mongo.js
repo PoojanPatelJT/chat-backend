@@ -1,7 +1,7 @@
 import mongoose from 'mongoose'
 import config from './index.js'
 
-const CONNECTION_URL = `mongodb://${config.db.url}/${config.db.name}`
+const CONNECTION_URL = `mongodb+srv://poojanjtdev:Sr2825u9w2SceB1F@chat-db.42g54zp.mongodb.net/`;
 
 mongoose.set('useFindAndModify', false);
 mongoose.set('useCreateIndex', true);
